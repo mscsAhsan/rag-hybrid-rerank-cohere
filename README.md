@@ -42,8 +42,8 @@ python -m venv .venv
 
 pip install -r requirements.txt
 
-cp .env.example .env        # Windows: copy .env.example .env
-# open .env and paste your key:  COHERE_API_KEY=...
+cp .env.example .env        
+
 ```
 
 > 🔒 Never commit `.env` or your key. `.gitignore` already excludes `.env`.
